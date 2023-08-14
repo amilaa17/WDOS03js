@@ -52,6 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const summaryTableData = localStorage.getItem("summaryTable");
 
       // Redirect to confirmation.html and pass the summary table data as a query parameter
-      window.location.href = `confirmation.html?summaryTable=${encodeURIComponent(summaryTableData)}`;
+      window.location.href = `Confirmation.html?summaryTable=${encodeURIComponent(summaryTableData)}`;
   });
 });
